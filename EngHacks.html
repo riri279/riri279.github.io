@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" type="text/css" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+<div class="flex-container">
+<div class="table">
+<div class="main">
+<div class="floating-box">
+   <nav>
+  <li> <a href="resume2.pdf" target="_blank">Resume</a> </li>
+  <li><a href="index.html">Portfolio</a></li>
+  <li><a href="#About.html">About</a></li>
+  <li style="float:left"><a class="active" href="index.html">Home</a></li>
+	  </nav>
+<br>
+	   
+  <h1 class= "title-page title"> EngHacks 2017</h1>
+  <article class="article">
+	<h3> Our Challenge: This was an open ended hackathon! </h3> 
+		<p>''A prototype to help visually impaired people ''see'' obstacles in unfamiliar environments. [Hackathon + Case Study]''
+	</p>
+	<br>
+	<br>
+	<div> 
+	<h3> Brainstorming </h3>
+		<p> We each spent 10 minutes on our own thinking of possible problems to solve. From there we eliminated ideas that would not be possible due to lack of hardware or lack of time. We decided we wanted to create something impactful that could be potentially useful in the real world. From our brainstorming session we came up with the idea to help people with visual impariments ''see'' obstacles in unknown environment. </p>
+  		<!--insert the brainstorming pages-->
+  		</div>
+  			<br>
+  			<br>
+  	<div>
+  	<h3> Our Solution</h3>
+  		<h4> Competitive Analysis:</h4>
+			<p> I first started the UX process by considering what our users would want and what other competitors already provided. 
+			We managed to deduce that users would like to have a system that could provide audio input in unfamiliar landscapes and that only one other team had ever provided a lot of the technical information behind how this process could potentially work. <br> 
+			We had to see if there were any other people/teams who have done something similar in the past. In my reasearch, I was able to find one team from Princeton who had done the research but did not have a viable product yet. <br> In doing more research now, I find that there are two competitors that we face: eSightEyeWear and ORCAM. </p>
+  		<!-- insert photo here of case-->
+  		<!-- Trigger the Modal -->	
+	   <center> <img id="myImg" src="EngHack_Comp.png" alt="competitive analysis solar panels" width="400" height="380"></center>
+			<!-- The Modal, competitive analysis -->
+			<div id="myModal" class="modal">
+
+			  <!-- The Close Button -->
+			  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+			  <!-- Modal Content (The Image) -->
+			  <img class="modal-content" id="img01">
+
+			  <!-- Modal Caption (Image Text) -->
+			  <div id="Competitive analysis of existing applications and websites that provided resources and information about solar panels."></div>
+			</div>
+			<script> 
+				// Get the modal
+				(function () {
+				   'use strict';
+				   // this function is strict...
+
+				var modal = document.getElementById('myModal');
+
+				// Get the image and insert it inside the modal - use its "alt" text as a caption
+				var img = document.getElementById('myImg');
+				var modalImg = document.getElementById("img01");
+				img.onclick = function(){
+					modal.style.display = "block";
+					modalImg.src = this.src;
+					captionText.innerHTML = this.alt;
+				};
+
+				// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close")[0];
+
+				// When the user clicks on <span> (x), close the modal
+				span.onclick = function() { 
+				  modal.style.display = "none";
+				};// JavaScript Document
+				}());
+				</script>
+				 </div>	
+		<br>
+	<div>
+		<h4>Our Product </h4> 
+			 <p> I originally wanted to work on a user interface that would be connected to the hardware product my team and I created. However given our limited amount of time and manpower, it was more important to make sure the physical device worked.</p> 
+			 <p> After some troubleshooting, lots of reading, and asking many questions I finally learned how OpenCV can be used for facial recognition with the appropriate sensors. Knowing that we could successfully identify faces and objects, I implemented text to speech so that users could be notified by a voice whether they were going to bump into something/someone. To improve the user experience, we also alerted the user if there was an obstacle to their left/right. Using python, I worked on providing audio output to users to notify them of these obstacles while my teammates figured out how to recognize faces using opencv and numpy. </p>
+		<center><img id="myImg2" src="18766991_1955179251380060_1030637884_o.jpg" alt="Glasses" width="379" height="550"></center>
+<!-- The Modal -->
+			<div id="myModal2" class="modal2">
+
+			  <!-- The Close Button -->
+			  <span class="close2" onclick="document.getElementById('myModal2').style.display='none'">&times;</span>
+
+			  <!-- Modal Content (The Image) -->
+			  <img class="modal-content2" id="img02">
+
+			</div>
+    		<script> 
+			// Get the modal
+			(function () {
+			   'use strict';
+			   // this function is strict...
+
+			var modal = document.getElementById('myModal2');
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img = document.getElementById('myImg2');
+			var modalImg = document.getElementById("img02");
+			img.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = this.src;
+				captionText.innerHTML = this.alt;
+			};
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close2")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+			  modal.style.display = "none";
+			};// JavaScript Document
+			}());
+			</script>
+		</div>
+	<br>
+	<br>
+	<div> 
+  <h3> Learnings </h3>
+   <p> This hackathon really pushed me out of my comfort zone and it turned out to be an amazing experience. We walked away with first place, prize money, full bellies, happy memories, and lots of new knowledge. </p>
+	<!-- insert team photo-->
+	<center><img id="myImg3" src="18927002_326973374403469_206149793_o.jpg" alt="Team Candid" width="489" height="325"></center>
+		<div id="myModal3" class="modal3">
+					  <!-- The Close Button -->
+					  <span class="close3" onclick="document.getElementById('myModal3').style.display='none'">&times;</span>
+
+					  <!-- Modal Content (The Image) -->
+			  <img class="modal-content3" id="img03">
+						</div>
+    	<script> 
+			// Get the modal
+			(function () {
+			   'use strict';
+			   // this function is strict...
+
+			var modal = document.getElementById('myModal3');
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img = document.getElementById('myImg3');
+			var modalImg = document.getElementById("img03");
+			img.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = this.src;
+				captionText.innerHTML = this.alt;
+			};
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close3")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+			  modal.style.display = "none";
+				};// JavaScript Document
+				}());
+				</script>
+		<p> It was an amazing experience and I'm so greatful to have worked on a great team! Check out our Devpost here:https://devpost.com/software/i-see-pi</p>
+			<br>
+		<p> It was the first time that I ever applied my UX knowledge to a hardware hack. I learned that treating every team member as a designer helped to improve the user experience  as everyone contributes to the project then. It was incredibly satisfying to accomplish so much under a tight deadline and it was incredibly rewarding to work with people of different expertise to create something amazing. </p>
+		</div>
+			<br>
+	  <p> Estimated Sleep: 3hours </p>    
+	</article>
+  	<br>   
+ 
+<footer class="footer">
+  <p class="tagline"> Keeping it simple one bowl of rice at a time.</p>	   
+  <a href="https://www.instagram.com/ririta_279/"><i class="fa fa-instagram"></i></a>
+  <a href="https://www.linkedin.com/in/ritachan1/"><i class="fa fa-linkedin"></i></a>
+  <a href="behance.com/RitaC123"><i class="fa fa-behance"></i></a>
+  <p class="w3-medium">
+ <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">  </a>
+  </p>
+</footer>
+ 
+  </div>
+	</div>
+  </div>
+	</div>
+
+
+
+</html>
