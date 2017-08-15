@@ -131,17 +131,18 @@ a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
-    padding: 0px 0px 0px 0px;
-	font-weight: 1000
+	color:black;
 }
 
+.active:hover { 
+	color:black;
+}	
 
 .active {
    	color: #B02160;
 	padding-left: 0px;
 	float:left;
-	font-weight: 600
+	font-weight: 700;
 }
 
 p {
