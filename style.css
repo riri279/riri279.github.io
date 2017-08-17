@@ -7,23 +7,23 @@
 }
 
 /* Tablet Landscape */
-@media screen and (max-width: 1060px) {
+@media all and (max-width: 1060px) {
     .flex-container { width:100%; }
 	.artice { width:100%; }
 }
 
 /* Tabled Portrait */
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
 	.flex-container { width:100%; }
 	.article { width:100%; }
 }
 
-@media screen and (min-device-width:600px) {
+@media all and (min-device-width:600px) {
 	.flex-container { width:100%; }
 	.article { width:100%; }
 }
 
-@media screen and (min-device-width:100px) {
+@media screen and (min-device-width:300px) {
 	.flex-container { width:100%; }
 	.article { width:100%; }
 }
@@ -167,15 +167,15 @@ nav {
 
 /* Nav on medium screens */
 @media all and (max-width: 800px) {
-  .navigation {
+  #nav {
     /* When on medium sized screens, we center it by evenly distributing empty space around items */
     justify-content: space-around;
   }
 }
 
 /* Small screens */
-@media all and (max-width: 200px) {
-  .navigation {
+@media all and (max-width: 300px) {
+  #nav {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }
