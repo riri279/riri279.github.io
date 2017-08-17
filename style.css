@@ -20,7 +20,7 @@
 		.flex-container { width:100%; }
 }
 
-@media screen and (min-device-width:300px) {
+@media screen and (min-device-width:200px) {
 		.flex-container { width:100%; }
 }
 
