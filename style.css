@@ -11,16 +11,16 @@
     .flex-container { width:100%; }
 }
 
-@media screen and (min-device-width:800px) {
-		.flex-container { width:100%; }
-}
-
 /* Tabled Portrait */
 @media screen and (max-width: 768px) {
 	.flex-container { width:100%; }
 }
 
 @media screen and (min-device-width:600px) {
+		.flex-container { width:100%; }
+}
+
+@media screen and (min-device-width:300px) {
 		.flex-container { width:100%; }
 }
 
