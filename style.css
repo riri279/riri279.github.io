@@ -9,27 +9,23 @@
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
     .flex-container { width:100%; }
-	.table { width:100%; }
-	.main { width:100%; }
+	.artice { width:100%; }
 }
 
 /* Tabled Portrait */
 @media screen and (max-width: 768px) {
 	.flex-container { width:100%; }
-	.table { width:100%; }
-	.main { width:100%; }
+	.article { width:100%; }
 }
 
 @media screen and (min-device-width:600px) {
 	.flex-container { width:100%; }
-	.table { width:100%; }
-	.main { width:100%; }
+	.article { width:100%; }
 }
 
 @media screen and (min-device-width:100px) {
 	.flex-container { width:100%; }
-	.table { width:100%; }
-	.main { width:100%; }
+	.article { width:100%; }
 }
 
 /* classes
@@ -178,7 +174,7 @@ nav {
 }
 
 /* Small screens */
-@media all and (max-width: 500px) {
+@media all and (max-width: 200px) {
   .navigation {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
