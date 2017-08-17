@@ -9,19 +9,31 @@
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
     .flex-container { width:100%; }
+	.table { width:100%; }
+	.main { width:100%; }
+	.floating-box { width:100%; }
 }
 
 /* Tabled Portrait */
 @media screen and (max-width: 768px) {
 	.flex-container { width:100%; }
+	.table { width:100%; }
+	.main { width:100%; }
+	.floating-box { width:100%; }
 }
 
 @media screen and (min-device-width:600px) {
-		.flex-container { width:100%; }
+	.flex-container { width:100%; }
+	.table { width:100%; }
+	.main { width:100%; }
+	.floating-box { width:100%; }
 }
 
 @media screen and (min-device-width:200px) {
-		.flex-container { width:100%; }
+	.flex-container { width:100%; }
+	.table { width:100%; }
+	.main { width:100%; }
+	.floating-box { width:100%; }
 }
 
 /* classes
