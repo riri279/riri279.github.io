@@ -29,7 +29,7 @@
 	.floating-box { width:100%; }
 }
 
-@media screen and (min-device-width:200px) {
+@media screen and (min-device-width:100px) {
 	.flex-container { width:100%; }
 	.table { width:100%; }
 	.main { width:100%; }
