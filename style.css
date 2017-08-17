@@ -80,6 +80,7 @@
 	padding-right: 3px;
 }
 
+
 /* 
 Body & typography
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -140,7 +141,6 @@ h4 {
 	text-align: left;
 	font-family: 'Raleway', sans-serif;
 }
-
 
 li {
   list-style: none;
@@ -278,7 +278,6 @@ Style the Image Used to Trigger the Modal for NASA competitive Analysis
         width: 100%;
     }
 }
-
 
 
 
