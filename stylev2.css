@@ -25,6 +25,24 @@
 	position: relative;
 }
 
+.dsm-ww-instagram-hashtag-feed {
+	margin-left: -10px;	
+}
+
+.flex-container {
+    display: flex; 
+	display: -webkit-flex; /* Safari */
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap; /* Safari */
+    text-align: center;
+    -webkit-text-align: center; /* Safari */
+	flex-direction: row;
+	-webkit-flex-direction: row; /* Safari */
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start; /* Safari */
+	align-content: stretch;
+	-webkit-align-content: stretch; /* Safari */
+}
 
 .flex-container > * {
     padding: 50px 50px 50px 50px;
