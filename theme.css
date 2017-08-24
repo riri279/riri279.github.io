@@ -6,6 +6,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+.quickref {
+	border-style: outset;
+	border-color: black;
+}
+
 .insta {
  	text-align: center;
 }
@@ -30,6 +35,10 @@
 	border-left: thick solid #B02160;
 }
 
+.title-page {
+	padding: 50px 50px 50px 20px;
+	border-left: thick solid #B02160;
+}
 
 .flex-container > * {
     padding: 50px 50px 50px 50px;
@@ -1446,6 +1455,20 @@ p {
   font-weight: 100;
 }
 
+.links {
+  line-height: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: #285AB1;
+  text-decoration: none;
+  text-transform: inherit;
+}
+
+.links:hover {
+  color: black;
+}
+
 input,
 button,
 select,
@@ -1650,7 +1673,7 @@ h4 {
 	font-size: 16px;
 	color: #B02160;
 	font-family: 'Raleway', sans-serif;
-	margin-bottom: -15xpx;
+	margin-bottom: -15px;
 }
 
 h5 {
@@ -1680,7 +1703,7 @@ a {
   text-align: left;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 }
 
 li a:hover:not(.active) {
@@ -1693,9 +1716,8 @@ li a:hover:not(.active) {
 
 .active {
    	color: #B02160;
-	font-weight: 700;
+	font-weight: 800;
 }
-
 
 .lead {
   margin-bottom: 20px;
