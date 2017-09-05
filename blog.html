@@ -1,5 +1,5 @@
 <head>
-    <link href="theme.css" type="text/css" rel="stylesheet">
+    <link href="testingdropdown.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="jquery.js" type="text/javascript"></script>
     <script src="jquery.lazyload.js" type="text/javascript"></script>
@@ -10,21 +10,29 @@
 <body>
     <div class="flex-container">
         <nav id="nav">
-            <li> <a href="resume edited v2.pdf" target="_blank">My Resume</a> </li>
-            <li> <a href="about.html">About Me</a>
+            <li> <a href="resume edited v2.pdf" target="_blank">My Resume</a> 
             </li>
-            <li> <a class="active" href="index.html">My Work</a>
+        <div class="dropdown">
+                <button     onclick="myFunction()" class="dropdown">
+                </button>
+            <li> <a href="about.html">About Me</a>  
+             <a href="/blog.html">My Blog</a>
+
+            </li>
+                    </div>
+
+                
+                   
+            <li> <a href="index.html">My Work</a>
             </li>
         </nav>
 
         <br>
         <br>
         <article>
-
-
             <div>
-                <h1 class="title-home-page">RITA CHAN</h1>
-                <h5 style="margin:-165px 0px 120px 31px">Insert witty sentence here about design/me.</h5>
+                <h1 class="title-home-page">MY BLOG</h1>
+                <h5 style="margin:-165px 0px 120px 31px">Here's where I write all my wierd thoughts. Scroll down to read more!</h5>
             </div>
 
             <div>
@@ -32,18 +40,12 @@
             </div>
             <div>
                 <a href="NASA.html">
-                    <h3>NASA Spaceapps Toronto April 2017 <img src="imgs/trophy.png" width="29" height="30" style="border-image-width: 100px"> </h3>
+                    <h3>Sketch 101</h3>
                 </a>
-
-                <img src="how it works.png" alt="How it Works" class="img-thumbnail" width="389" height="260" style="float: left; margin: 20px 30px 30px 0px; height: 239px;">
-                <h4> Objective/Problem: </h4>
-                <p> At this hackathon we had to create a medium to help people understand energy output from a solar panel, and a tool to plan energy consumption based on expected energy output from solar technologies. </p>
-                    <h4>Our Solution: </h4>
-                    <p> We created a simple website that would deliver information in a easy to digest manner to the user.</p>
-                    <h4>Takeaways: Difficulties and learnings </h4>
-                    <p> As the UX/UI Designer, I worked with other team mates to get a grasp of the concept and then translate the concept into the user experience and user interface design. With little sleep and lots of questions, we were able to use the Agile design process for this hackathon to through and deliver an amazing product. </p>
-                    <p> <a href="https://nasaspaceappstoronto2k17.netlify.com/" target="_blank" class="links" style="margin-left: -1px; width: 530px; margin-top: -51px; height: 53px;"> Solution: See our award winning creation in 48 hours</a> </p>
-                    <p style="clear: both;"> </p>
+                <p> Here's' a quick and easy guide to starting with Sketch. Here's a bunch of tips I got from various videos as well as through my own practice.</p>
+                
+                <p> <a href="https://nasaspaceappstoronto2k17.netlify.com/" target="_blank" class="links" style="margin-left: -1px; width: 530px; margin-top: -51px; height: 53px;"> Solution: See our award winning creation in 48 hours</a> </p>
+                <p style="clear: both;"> </p>
             </div>
             <br>
             <br>
@@ -55,7 +57,7 @@
                     <h3> EngHacks 2017
                         <img src="imgs/trophy.png" width="29" height="30" style="border-image-width: 100px"> </h3>
                 </a>
-                <h4> Objective/Problem: </h4>  
+                <h4> Objective/Problem: </h4>
                 <p>At this hackathon, we created a device to help people who are visually impaired navigate the obstacles around them. </p>
                 <h4> Our Solution:</h4>
                 <p>To improve the user experience we identified user needs and the best way to deliver information to visually impaired users. Then we used open CV, numpy, and python 2.7 to recognize obstacles and deliver audio output. </p>
@@ -75,7 +77,7 @@
                     <h3> NextGen Creators </h3>
                 </a> -->
                 <img src="NG_cal_mobile.png" class="img-thumbnail" alt="next-gen-cal-phone.png" width="279" height="360" style="float: left; margin: 20px 30px 0px 0px;">
-                <h4> Objective/Problem: </h4> 
+                <h4> Objective/Problem: </h4>
                 <p> Redesign NextGen Creator's website to help them foster a community for developers, designers, and entrepreneurs in the Caribbean. </p>
                 <p> Solution: *Coming Soon, but here's a sneak preview!*
                     <!--<a href="#" class="links" target="_blank"> Solution: Link coming soon!</a> --></p>
