@@ -1462,21 +1462,6 @@ p {
   font-weight: 100;
 }
 
-.links {
-  line-height: inherit;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  color: #285AB1;
-  text-decoration: none;
-  text-transform: inherit;
-  font-kerning: auto;
-}
-
-.links:hover {
-  color: black;
-}
-
 input,
 button,
 select,
@@ -3442,16 +3427,16 @@ select[multiple].input-lg {
 }
 .btn {
   display: inline-block;
-  margin-bottom: 0;
   font-weight: normal;
+  text-transform: uppercase;
   text-align: center;
   vertical-align: middle;
-  touch-action: manipulation;
   cursor: pointer;
   background-image: none;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   white-space: nowrap;
-  padding: 6px 12px;
+  padding: 6px 6px 6px 6px;
+  color: white;
   font-size: 14px;
   line-height: 1.42857143;
   border-radius: 2px;
@@ -3459,7 +3444,12 @@ select[multiple].input-lg {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175)
 }
+
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -3556,6 +3546,7 @@ fieldset[disabled] .btn-default.focus {
   color: #ffffff;
   background-color: #0383b0;
   border-color: #037097;
+  text-emphasis-color: white;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -3839,9 +3830,17 @@ fieldset[disabled] .btn-danger.focus {
 }
 .btn-link {
   color: #0383b0;
-  font-weight: normal;
   border-radius: 0;
+  line-height: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: #285AB1;
+  text-decoration: none;
+  text-transform: inherit;
+  font-kerning: auto;
 }
+
 .btn-link,
 .btn-link:active,
 .btn-link.active,
@@ -3856,6 +3855,7 @@ fieldset[disabled] .btn-link {
 .btn-link:focus,
 .btn-link:active {
   border-color: transparent;
+  color: black;
 }
 .btn-link:hover,
 .btn-link:focus {
