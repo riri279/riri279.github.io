@@ -10,6 +10,13 @@
 	border-style: outset;
 	border-color: black;
 }
+.mail_to {
+    font-style: inherit; 
+    font-size: inherit; 
+    font-family: inherit; 
+    font-weight: inherit;
+    text-transform: inherit;
+}
 
 .insta {
  	text-align: center;
