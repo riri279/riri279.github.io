@@ -1655,41 +1655,6 @@ h5 {
 	font-family: 'Raleway', sans-serif;
 }
 
-li {
-  list-style: none;
-  float: right;
-  padding: 0px 0px 0px 0px;
-}
-
-li a {
-    display: block;
-	float: right;
-}
-
-a {
-  color: #B02160;
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
-  padding: 14px 40px 14px 0px;
-  font-weight: 9000;
-  text-align: left;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 4px;
-}
-
-li a:hover:not(.active) {
-	color:black;
-}
-
-.active:hover { 
-	color:black;
-}	
-
-.active {
-   	color: #B02160;
-	font-weight: 800;
-}
 
 .lead {
   margin-bottom: 20px;
@@ -2017,14 +1982,14 @@ pre {
     text-align: left;
 	padding-right: 350px;
 	margin-top: -90px;
-	width: 80%;
+	width: 100%;
 	position: relative;
 }
 
 .article {
     text-align: left;
 	padding-right: 250px;
-	width: 80%;
+	width: 100%;
 	position: relative;
 }
 
@@ -3113,7 +3078,6 @@ input[type="search"] {
 }
 .form-group {
   margin-bottom: 15px;
-  max-width: 850px;
 }
 .radio,
 .checkbox {
@@ -4005,44 +3969,80 @@ tbody.collapse.in {
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
 }
-.dropup,
-.dropdown {
-  position: relative;
-}
-.dropdown-toggle:focus {
-  outline: 0;
+
+
+
+
+
+a {
+  color: #B02160;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  padding: 14px 40px 14px 0px;
+  font-weight: 9000;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 4px;
 }
 
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
+.active:hover { 
+	color:black;
+}	
+
+.active {
+   	color: #B02160;
+	font-weight: 800;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #b02160;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    color:black;
+}
+
+li a:hover:not(.active) {
+	color:black;
+}
+
+li {
+  list-style: none;
+  float: right;
+  padding: 0px 0px 0px 0px;
+}
+
+.dropdown-content {
     display: none;
-    float: left;
+    position: absolute;
+    background-color: #f9f9f9;
     min-width: 160px;
-    padding: 5px 0;
-    margin: 2px 0 0;
-    font-size: 14px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
     text-align: left;
-    list-style: none;
-    background-color: #fff;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0, 0, 0, .15);
-    border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, .175)
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .menu-items {
     float: left;
     margin-left: 30px;
-}
-
-.dropdown:hover {
-    display: block;
 }
 
 .dropdown-content a:hover {
@@ -4051,6 +4051,14 @@ tbody.collapse.in {
 }
 
 .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-menu:hover .menu-items{
     display: block;
 }
 
@@ -4066,7 +4074,7 @@ tbody.collapse.in {
   background-color: #e5e5e5;
 }
 
-.dropdown-menu > menu-items > li > a {
+.dropdown-menu > li > a {
   display: block;
   padding: 3px 20px;
   clear: both;
@@ -4077,13 +4085,13 @@ tbody.collapse.in {
   left: auto;
 }
 
-.dropdown-menu > menu-items > li > a:hover {
+.dropdown-menu > li > a:hover {
   display: block;
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #262626;
+  color: #b02160;
   white-space: nowrap;
   left: auto;  
 }
@@ -4097,7 +4105,7 @@ tbody.collapse.in {
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: #59C5E8;
+  color: #ffffff;
   text-decoration: none;
   outline: 0;
   background-color: #0383b0;
@@ -4105,7 +4113,7 @@ tbody.collapse.in {
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
-  color: lightgrey;
+  color: #777777;
 }
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
@@ -7367,4 +7375,3 @@ button.close {
     display: none !important;
   }
 }
-

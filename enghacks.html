@@ -12,7 +12,7 @@
 </head>
 
 <div class="flex-container">
-    <div class="dropdown">
+     <div>
         <nav id="nav" style="float: right;">
             <div class="container-fluid">
 
@@ -22,12 +22,12 @@
                         <!-- my work -->
                         <li class="dropdown">
 
-                            <a href="index.html" data-toggle="dropdown">Portfolio<b class="caret"></b></a>
+                    <a href="index.html" data-toggle="dropdown" class="active">Portfolio<b class="caret"></b></a>
 
                             <ul class="dropdown-menu">
                                 <div class="menu-items">
                                     <li><a href="nasa.html">NASA SpaceApps Toronto 2017 </a></li>
-                                    <li><a href="enghacks.html">EngHacks 2017</a></li>
+                                    <li><a href="enghacks.html" class="active">EngHacks 2017</a></li>
                                     <!--
                                         <li><a href="#">NextGen Creators</a></li>
 
@@ -38,21 +38,11 @@
                         </li>
                     </ul>
 
-                    <ul class="nav navbar-nav">
-                        <!-- about me -->
-                        <li class="dropdown">
-
-                            <a href="about.html" data-toggle="dropdown">About<b class="caret"></b></a>
-
-                            <ul class="dropdown-menu">
-                                <div class="menu-items">
-                                    <li><a href="about.html">My Story </a></li>
-                                    <li><a href="blog.html">My Blog</a></li>
-                                </div>
-                                <!-- Menu items -->
-                            </ul>
-                        </li>
+                 <ul class="nav navbar-nav">
+                        <li><a href="about.html">About</a></li>
                     </ul>
+
+                        
                     <ul class="nav navbar-nav">
                         <li><a href="Contact.html">Contact</a></li>
                     </ul>
@@ -71,6 +61,8 @@
  	<br>
 <article class="article">
   <body>
+      <progress value="0"></progress>
+
   <div> 
   	<h1 class= "title-page"> EngHacks 2017</h1>
 	<h3> Our Challenge: This was an open ended hackathon! </h3> 
@@ -94,7 +86,7 @@
 			We had to see if there were any other people/teams who have done something similar in the past. In my reasearch, I was able to find one team from Princeton who had done the research but did not have a viable product yet. <br> In doing more research now, I find that there are two competitors that we face: eSightEyeWear and ORCAM. </p>
   		<!-- insert photo here of case-->
   		<!-- Trigger the Modal -->	
-	   <center> <img id="myImg" src="EngHack_Comp.png" alt="competitive analysis solar panels" width="400" height="380"></center>
+	   <center> <img id="myImg" src="EngHacks/enghack_comp.png" alt="competitive analysis solar panels" width="400" height="380"></center>
 			<!-- The Modal, competitive analysis -->
 		<div id="myModal" class="modal">
 
@@ -139,7 +131,7 @@
 		<h4>Our Product </h4> 
 			 <p> I originally wanted to work on a user interface that would be connected to the hardware product my team and I created. However given our limited amount of time and manpower, it was more important to make sure the physical device worked.</p> 
 			 <p> After some troubleshooting, lots of reading, and asking many questions I finally learned how OpenCV can be used for facial recognition with the appropriate sensors. Knowing that we could successfully identify faces and objects, I implemented text to speech so that users could be notified by a voice whether they were going to bump into something/someone. To improve the user experience, we also alerted the user if there was an obstacle to their left/right. Using python, I worked on providing audio output to users to notify them of these obstacles while my teammates figured out how to recognize faces using opencv and numpy. </p>
-		<center><img id="myImg2" src="18766991_1955179251380060_1030637884_o.jpg" alt="Glasses" width="379" height="550"></center>
+		<center><img id="myImg2" src="EngHacks/18766991_1955179251380060_1030637884_o.jpg" alt="Glasses" width="379" height="550"></center>
 <!-- The Modal -->
 			<div id="myModal2" class="modal2">
 
@@ -184,7 +176,7 @@
   <h3> Learnings </h3>
    <p> This hackathon really pushed me out of my comfort zone and it turned out to be an amazing experience. We walked away with first place, prize money, full bellies, happy memories, and lots of new knowledge. </p>
 	<!-- insert team photo-->
-	<center><img id="myImg3" src="18927002_326973374403469_206149793_o.jpg" alt="Team Candid" width="489" height="325"></center>
+	<center><img id="myImg3" src="EngHacks/18927002_326973374403469_206149793_o.jpg" alt="Team Candid" width="489" height="325"></center>
 		<div id="myModal3" class="modal3">
 					  <!-- The Close Button -->
 					  <span class="close3" onclick="document.getElementById('myModal3').style.display='none'">&times;</span>
