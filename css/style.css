@@ -3505,8 +3505,8 @@ select[multiple].input-lg {
   user-select: none;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, .175)
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .100);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .100)
 }
 
 .btn:focus,
@@ -3749,7 +3749,7 @@ fieldset[disabled] .btn-success.focus {
 .btn-info.active.focus,
 .open > .dropdown-toggle.btn-info.focus {
   color: #ffffff;
-  background-color: #269abc;
+  background-color: #31b0d5;
   border-color: #1b6d85;
 }
 .btn-info:active,
