@@ -1,50 +1,57 @@
 /* classes are used multiple times, IDs are used once */
 
+
 /* media stuff
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 * {
     box-sizing: border-box;
 }
 
 
-
 /* classes
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .index-article {
     text-align: left;
-	padding-right: 350px;
-	margin-top: -90px;
-	width: 100%;
-	position: relative;
+    padding-right: 350px;
+    margin-top: -90px;
+    width: 100%;
+    position: relative;
 }
 
 .article {
     text-align: left;
-	padding-right: 250px;
-	width: 100%;
-	position: relative;
+    padding-right: 250px;
+    width: 100%;
+    position: relative;
 }
 
-
-.flex-container > * {
+.flex-container>* {
     padding: 50px 50px 50px 50px;
     flex: 1 100%;
 }
 
 .flex-item {
-	display: flex; 
-	display: -webkit-flex; /* Safari */
-	flex-flow: row wrap;
-	-webkit-flex-flow: row wrap; /* Safari */
-	flex-wrap: wrap;
-	flex-direction: row;
-	-webkit-flex-direction: row; /* Safari */
-	-webkit-justify-content: flex-start; /* Safari */
-  	justify-content: flex-start;
-	-webkit-align-items: stretch; /* Safari */
-  	align-items: stretch;
-	-webkit-flex-grow: 0; /* Safari */
-  	flex-grow: 0 ;
+    display: flex;
+    display: -webkit-flex;
+    /* Safari */
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    /* Safari */
+    flex-wrap: wrap;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    /* Safari */
+    -webkit-justify-content: flex-start;
+    /* Safari */
+    justify-content: flex-start;
+    -webkit-align-items: stretch;
+    /* Safari */
+    align-items: stretch;
+    -webkit-flex-grow: 0;
+    /* Safari */
+    flex-grow: 0;
 }
 
 
@@ -53,128 +60,143 @@ Body & typography
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 body {
-  padding: 0;
-  margin: 0;
- /* background: #f7f7f7; */
-	background: #EEEEEE;
-  /* Old browsers */
-  background: -moz-linear-gradient(45deg, #EEEEEE 0%, #EAE0D5 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #EEEEEE 0%, #EAE0D5 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #EEEEEE 100%, #EAE0D5 100%);
+    padding: 0;
+    margin: 0;
+    /* background: #f7f7f7; */
+    background: #EEEEEE;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #EEEEEE 0%, #EAE0D5 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #EEEEEE 0%, #EAE0D5 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #EEEEEE 100%, #EAE0D5 100%);
 }
+
 
 /** Header styles **/
+
 .header {
-  height: 400px;
-  background-position: center center;
+    height: 400px;
+    background-position: center center;
 }
+
+
 /** Title style**/
+
 h1 {
-  color: #B02160;
-  font-family: 'Covered By Your Grace', sans-serif;
-  font-size: 100px;
-  line-height: 100px;
-  text-align: left;
+    color: #B02160;
+    font-family: 'Covered By Your Grace', sans-serif;
+    font-size: 100px;
+    line-height: 100px;
+    text-align: left;
 }
+
 
 /** List style **/
+
+
 /** TDLR style **/
+
 h2 {
-  color: #B02160;
-  font-family: 'Raleway', sans-serif;
-  font-size: 28px;
-  font-weight: 500;
-  text-align: right;
-  text-transform: uppercase;
+    color: #B02160;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: right;
+    text-transform: uppercase;
 }
 
-h3 { 
-	display: block;
+h3 {
+    display: block;
     font-size: 1.7em;
     margin-top: 1em;
     margin-bottom: 0em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-	color: #B02160;
-	font-family: 'Raleway', sans-serif;
+    color: #B02160;
+    font-family: 'Raleway', sans-serif;
 }
 
 h4 {
-	font-size: 1.2em;
-	color: #B02160;
-	text-align: left;
-	font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    color: #B02160;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
 }
 
 li {
-  list-style: none;
-  float: right;
-  padding: 0px 0px 0px 0px;
+    list-style: none;
+    float: right;
+    padding: 0px 0px 0px 0px;
 }
 
 li a {
     display: block;
-	float: right;
+    float: right;
 }
 
 a {
-  color: #B02160;
-  font-family: 'Raleway', sans-serif;
-  font-size: 13px;
-  padding: 14px 40px 14px 0px;
-  font-weight: 9000;
-  text-align: left;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 2px;
+    color: #B02160;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    padding: 14px 40px 14px 0px;
+    font-weight: 9000;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
 }
 
 li a:hover:not(.active) {
-	color:black;
+    color: black;
 }
 
-.active:hover { 
-	color:black;
-}	
+.active:hover {
+    color: black;
+}
 
 .active {
-   	color: #B02160;
-	font-weight: 700;
+    color: #B02160;
+    font-weight: 700;
 }
+
 
 /* Large */
+
 nav {
-  display: flex;
-  flex-flow: row wrap;
-  /* This aligns items to the end line on main-axis */
-  justify-content: flex-end;
+    display: flex;
+    flex-flow: row wrap;
+    /* This aligns items to the end line on main-axis */
+    justify-content: flex-end;
 }
+
 
 /* Nav on medium screens*/
+
 @media all and (max-width: 768px) {
-  #nav {
-    /* When on medium sized screens, we center it by evenly distributing empty space around items */
-    justify-content: space-around;
-  }
+    #nav {
+        /* When on medium sized screens, we center it by evenly distributing empty space around items */
+        justify-content: space-around;
+    }
 }
 
+
 /* Small screens */
+
 @media all and (max-width: 368px) {
-  #nav {
-    /* On small screens, we are no longer using row direction but column */
-    flex-direction: column;
-  }
+    #nav {
+        /* On small screens, we are no longer using row direction but column */
+        flex-direction: column;
+    }
 }
 
 p {
-  color: #162037;
-  line-height: 32px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  font-weight: 100;
+    color: #162037;
+    line-height: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
 }
 
 
@@ -188,24 +210,39 @@ Style the Image Used to Trigger the Modal for NASA competitive Analysis
     transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+#myImg:hover {
+    opacity: 0.7;
 }
 
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+
 /* Modal Content (Image) */
+
 .modal-content {
     margin: auto;
     display: block;
@@ -213,7 +250,9 @@ Style the Image Used to Trigger the Modal for NASA competitive Analysis
     max-width: 700px;
 }
 
+
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
+
 #caption {
     margin: auto;
     display: block;
@@ -225,8 +264,11 @@ Style the Image Used to Trigger the Modal for NASA competitive Analysis
     height: 150px;
 }
 
+
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption { 
+
+.modal-content,
+#caption {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -234,16 +276,26 @@ Style the Image Used to Trigger the Modal for NASA competitive Analysis
 }
 
 @-webkit-keyframes zoom {
-	from {-webkit-transform:scale(-1)}
-    to {-webkit-transform:scale(1)}
+    from {
+        -webkit-transform: scale(-1)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
 }
 
 @keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
 }
 
+
 /* The Close Button */
+
 .close {
     position: absolute;
     top: 15px;
@@ -261,13 +313,14 @@ Style the Image Used to Trigger the Modal for NASA competitive Analysis
     cursor: pointer;
 }
 
+
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width : 768px ){
+
+@media only screen and (max-width: 768px) {
     .modal-content {
         width: 100%;
     }
 }
-
 
 
 /* 
@@ -279,34 +332,52 @@ Style the Image Used to Trigger the Modal for User Flow ––––––––
     transition: 0.3s;
 }
 
-#myImg2:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal2 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: scroll; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+#myImg2:hover {
+    opacity: 0.7;
 }
 
+
+/* The Modal (background) */
+
+.modal2 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: scroll;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+
 /* Modal Content (Image) */
+
 .modal-content2 {
     margin: auto;
     display: block;
     width: 100%;
     max-width: 579px;
-	max-height: 1150px;
+    max-height: 1150px;
 }
 
+
 /* Add Animation - Zoom in the Modal */
-.modal-content2, #caption2 { 
+
+.modal-content2,
+#caption2 {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -314,16 +385,26 @@ Style the Image Used to Trigger the Modal for User Flow ––––––––
 }
 
 @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
 }
 
 @keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
 }
 
+
 /* The Close Button */
+
 .close2 {
     position: absolute;
     top: 15px;
@@ -341,12 +422,15 @@ Style the Image Used to Trigger the Modal for User Flow ––––––––
     cursor: pointer;
 }
 
+
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width : 768px ){
+
+@media only screen and (max-width: 768px) {
     .modal-content2 {
         width: 100%;
     }
 }
+
 
 /* 
 Style the Image Used to Trigger the Modal for wireframe –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -357,34 +441,52 @@ Style the Image Used to Trigger the Modal for wireframe ––––––––
     transition: 0.3s;
 }
 
-#myImg3:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal3 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: scroll; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+#myImg3:hover {
+    opacity: 0.7;
 }
 
+
+/* The Modal (background) */
+
+.modal3 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: scroll;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+
 /* Modal Content (Image) */
+
 .modal-content3 {
     margin: auto;
     display: block;
     width: 100%;
     max-width: 650px;
-	max-height: 850px;
+    max-height: 850px;
 }
 
+
 /* Add Animation - Zoom in the Modal */
-.modal-content3, #caption3{ 
+
+.modal-content3,
+#caption3 {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -392,16 +494,26 @@ Style the Image Used to Trigger the Modal for wireframe ––––––––
 }
 
 @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
 }
 
 @keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
 }
 
+
 /* The Close Button */
+
 .close3 {
     position: absolute;
     top: 15px;
@@ -419,8 +531,10 @@ Style the Image Used to Trigger the Modal for wireframe ––––––––
     cursor: pointer;
 }
 
+
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width : 768px ){
+
+@media only screen and (max-width: 768px) {
     .modal-content3 {
         width: 100%;
     }
@@ -436,34 +550,52 @@ Style the Image Used to Trigger the Modal for User Flow ––––––––
     transition: 0.3s;
 }
 
-#myImg4:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal4 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: scroll; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+#myImg4:hover {
+    opacity: 0.7;
 }
 
+
+/* The Modal (background) */
+
+.modal4 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: scroll;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+
 /* Modal Content (Image) */
+
 .modal-content4 {
     margin: auto;
     display: block;
     width: 100%;
     max-width: 650px;
-	max-height: 850px;
+    max-height: 850px;
 }
 
+
 /* Add Animation - Zoom in the Modal */
-.modal-content4, #caption4{ 
+
+.modal-content4,
+#caption4 {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -471,16 +603,26 @@ Style the Image Used to Trigger the Modal for User Flow ––––––––
 }
 
 @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
 }
 
 @keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
 }
 
+
 /* The Close Button */
+
 .close4 {
     position: absolute;
     top: 15px;
@@ -498,8 +640,10 @@ Style the Image Used to Trigger the Modal for User Flow ––––––––
     cursor: pointer;
 }
 
+
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width : 768px ){
+
+@media only screen and (max-width: 768px) {
     .modal-content4 {
         width: 100%;
     }
